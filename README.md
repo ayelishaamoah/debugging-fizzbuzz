@@ -1,13 +1,31 @@
 # Debugging in Ruby
 
-Debugging is an important skill, this exercise will give you some practice using two of the main techniques developers use to spot and resolve bugs in their code:
+In this program, there are 9 bugs. You have to find them, and fix them. You have to do this as systematically as possible:
 
-1. Tightening the loop
+- Tighten the loop (find the exact line the bug is coming from)
 
-2. Getting visibility
+- Get visibility (use `p` to inspect everything to help you home in on the exact line)
 
-## Instructions
+- Once you know the one thing that is wrong, out of place, misspelled, or not giving you what you expect, try to fix it.
 
-Clone this repository, and run `bundle install` to install the dependencies.
+Wisest are they who try only one thing to fix the problem. Faffing about trying whatever occurs to you next is a recipe for development hell.
 
-Then run the tests and resolve the errors by `tightening the loop` to identify which line of code is causing the error, then `getting visibility` of what is happening in the code, and resolve the issue.
+> You should not change the tests, only the code, in this exercise.
+
+## Setup
+
+Clone this repo, and `cd` into it.
+
+Run `bundle install`.
+
+Run the tests with `rspec`.
+
+## Hints
+
+There are two main types of errors you will see in this example:
+
+1. A bug in the code. This type of error means that the code won't run, and the error message will include information about the line of code causing the issue.
+
+2. The code doesn't do what the tests expect it to. This means that the code works, but it doesn't give the output expected by the tests.
+
+You will see both of these errors in this example. Each type of error gives a different kind of error message. Before you start to resolve a bug, make a note of it's type.
