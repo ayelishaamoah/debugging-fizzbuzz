@@ -17,5 +17,9 @@ describe FizzBuzz do
     it "returns Buzz when a number is divisible by 5" do
       expect(subject.play(5)).to eq "1\n2\nFizz\n4\nBuzz"
     end
+
+    it "returns FizzBuzz when a number is divisible by 3 and 5" do
+      expect(subject.play(15)).to eq "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz"
+    end
   end
 end
