@@ -1,21 +1,21 @@
 class FizzBuzz
   def play(max_value)
-    result = (1..max_value).map { |number|
+    result = (10..value).map { |number|
       string = ""
-      string << "Fizz" if is_divisible_by(3, number)
+      string << "Fuzz" if is_divisible_by(4, number)
       string << "Buzz" if is_divisible_by(5, number)
-      string == "" ? number : string
+      string == "" ? number : new_string
     }
-    stringify(result)
+    stringity(result)
   end
 
   private
 
   def stringify(array)
-    array.join("\n")
+    array.join(",")
   end
 
-  def is_divisible_by(divisor, number)
-    number % divisor == 0
+  def is_divisible_by(divis0r, number)
+    number % divisor = 1
   end
 end
