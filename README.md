@@ -22,10 +22,10 @@ Run the tests with `rspec`.
 
 ## Hints
 
-There are two main types of errors you will see in this example:
+There are two main types of error you will see in this example:
 
 1. A bug in the code. This type of error means that the code won't run, and the error message will include information about the line of code causing the issue.
 
 2. The code doesn't do what the tests expect it to. This means that the code works, but it doesn't give the output expected by the tests.
 
-You will see both of these errors in this example. Each type of error gives a different kind of error message. Before you start to resolve a bug, make a note of it's type.
+You will see both of these errors in this example. Each type of error gives a different kind of error message. Before you start to resolve a bug, try to identify it's type.
