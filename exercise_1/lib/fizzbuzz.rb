@@ -7,8 +7,6 @@ class FizzBuzz
       string == "" ? number : string
     }
 
-    p result
-
     stringify(result)
   end
 
