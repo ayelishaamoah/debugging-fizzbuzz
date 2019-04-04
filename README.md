@@ -28,7 +28,7 @@ Run the tests with `rspec`.
 
 2. Watch your recording, making a note of anywhere you fail to apply a debugging process (you can watch it a x2 or even x5 speed!)
 
-3. Move on to exercise 2, continue to apply the debugging process.
+3. Repeat the above steps for exercise 2.
 
 ## Hints
 
